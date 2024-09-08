@@ -1,6 +1,6 @@
 {
 	"name": "com.slax.utils",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"displayName": "Slax Utility Toolkit",
 	"description": "A utility library for my personal use",
 	"unity": "2021.1",

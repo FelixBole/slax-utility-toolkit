@@ -9,3 +9,7 @@ Library of utility classes and methods I come across or tend to do. Will be pili
 3. Select `Add package from git URL...`.
 4. Enter the Git URL of this package.
 5. Click `Add` to install the package into your project.
+
+## Documentation
+
+See [documentation](./Documentation~/README.md) available on this repo.
