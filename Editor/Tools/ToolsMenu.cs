@@ -4,11 +4,13 @@ namespace Slax.Utils.Editor
 {
     public static class ToolsMenu
     {
+        static readonly string k_gistId = "9c4f9e2be5c20650c29f88d309d1810e";
+
         [MenuItem("Tools/Setup/Folder Structure")]
         public static void SetupProjectFolderStructure() => ProjectSetup.CreateFolderStructure();
 
         [MenuItem("Tools/Setup/Packages/Load Preconfigured Manifest")]
-        public static async void SetupPackages() => await PackageLoader.ReplacePackagesFromGist("");
+        public static async void SetupPackages() => await PackageLoader.ReplacePackagesFromGist(k_gistId);
 
         [MenuItem("Tools/Setup/Packages/Quick Installs/New Input System")]
         public static void InstallNewInputSystem() => PackageLoader.InstallUnityPackage("inputsystem");
